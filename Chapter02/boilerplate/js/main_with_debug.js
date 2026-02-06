@@ -150,7 +150,7 @@ function addEvents(){
 
 	
 		// } pulling this bracket above the querySelector 
-		document.querySelector("table").style.backgroundColor = color;
+		document.querySelector("table").style.color = color;
 		// document.querySelector("table").addEventListener("mouseover", addEvents); <- nope, that didn't work.
 	});
 	// console.log("addEvents ran"); 
